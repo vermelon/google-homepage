@@ -1,0 +1,136 @@
+.header {
+	width: 210px;
+	position: absolute;
+	right: 21px;
+	top: 13px;
+}
+
+.header a{
+	text-decoration: none;
+	color: #524c4c;
+	font-family: sans-serif;
+	font-size: 13px;
+	margin-right: 6px
+}
+
+.header input[type='button']{
+	background-color:#4285f4;
+	border: none;
+	border-radius: 3px;
+	font-weight: bold;
+	color: white;
+	height: 30px;
+	width: 70px;
+	position: relative;
+	left: 13px;
+	top: -1px;
+}
+.header img {
+	position: relative;
+	top: 7px;
+	left: 4px;
+}
+
+.center {
+	margin: 0 auto;	
+	margin-top: 198px;
+	width: 570px;
+}
+
+#google_image {
+	width: 271px;
+	margin: 0 auto;	
+}
+
+#logo {
+	height: auto;
+	width: inherit;
+}
+
+#submit_form {
+	margin: 0 auto;
+	width: 550px;
+	padding: 20px
+}
+
+#search {
+	width: inherit;
+	height: 40px;
+	padding-left: 15px;
+	border: solid 1px #ebebeb;
+	box-shadow: 0px 3px 3px -2px #c8c8c8;
+	border-radius: 2px;
+	background-color: white;
+	background-image: url('images/search.png');
+    background-position: 511px 5px; 
+    background-repeat: no-repeat;
+}
+
+#search:focus {
+	outline: none;
+}
+
+#search:hover {
+	box-shadow: 0px 4px 6px 1px #e8e8e8;
+}
+
+#buttons {
+	margin: 0 auto;	
+	width: 276px;
+	padding-top: 8px;
+}
+.button {
+	background-color: #f1f1f1;
+	border: none;
+	font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 27px;
+    color: #757575;
+    padding: 0 16px;
+    margin: 12px 1px;
+} 
+.button:hover{
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+.footer {
+	height: 42px;
+	width: 100%;
+	background-color: #f1f1f1;
+	margin: 0 -10px -5px -10px;
+	position: absolute;
+	bottom: 5px;
+	border: 1px solid #d8d8d8;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px;
+}
+.footer li {
+	display: inline;
+	font-family: sans-serif;
+	font-size: 13px;
+	line-height: 42px;
+}
+
+.footer li a {
+	text-decoration: none;
+	color:#757575;
+	padding-left: 15px;
+	padding-right: 16px;
+}
+
+.footer li #right {
+	float: right;
+}
+
+.footer li a:hover {
+	text-decoration: underline;
+}
